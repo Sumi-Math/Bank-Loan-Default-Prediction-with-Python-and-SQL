@@ -16,7 +16,7 @@ To prepare the data for analysis, at first we pulled the essential data in the r
 
 ### Data Analysis in Python
 
-After extracting data from the database we fit the data in pandas dataframe. We did an EDA of the data, cleaned the data by handling missing values and duplications.For simplicity we extracted each joined table as a csv file and later merged them based on the common column. In the final table there are all together 307511 rows. On anaother  note there are many categorical variables in this final table. We used 'one hot encoding' technique to handle those categorical variables. Finally we fit tha dataset to both of the logistics regression and random forest classifier model to predict the loan default. Random Forest Classifier showed a better accuracy than Logistic Regression model with better AUROC score.
+After extracting data from the database we fit the data in pandas dataframe. We did an EDA of the data, cleaned the data by handling missing values and duplications.For simplicity we extracted each joined table as a csv file and later merged them based on the common column. In the final table there are all together 307511 rows. On anaother  note there are many categorical variables in this final table. We used 'one hot encoding' technique to handle those categorical variables. Finally we fit tha dataset to both of the logistics regression and random forest classifier model to predict the loan default. Random Forest Classifier showed a better accuracy than Logistic Regression model with better AUROC (Area Under the Receiver Operating Characteristics) score. 
 
 !![AUROC](https://user-images.githubusercontent.com/76721123/114818433-cc623280-9d89-11eb-8377-6a6858258697.JPG)
 [Uploading AUROC.JPG…]()
